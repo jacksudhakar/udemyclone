@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-s1__titel{
+    color: blueviolet;
+}
+.navbar-s2{
+
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-s2 input{
+    border: none;
+    width: 100%;
+}
+.navbar-s2 input{
+
+outline: none;
+}
+.navbar-s3{
+    display: flex;
+    gap: 10px;
+}
+.categories{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border-bottom: solid black 1px;
+}
+.categories p{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.recommender__container{
+    display:flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+margin: 10px;
+}
+
+.sale-image img{
+    width: 100%;
+}
+
+.Coures-card{
+    width: 250px;
+}
+.Coures-card img{
+    height: 50%;
+    width: 100%;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+gap: 10px;
+margin-top: 10px;
+flex-wrap: wrap;
+}
+.topics__container p{
+padding: 10px;
+border:solid gray;
+flex-grow: 1;
+flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.fotter{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.fotter_one{
+    display: flex;
+    gap: 10px;
+}
+.fotter_one p{
+    margin: 20px;
+}
+.fotter_two{
+    display: flex;
+    justify-content: space-between;
+}
